@@ -1,0 +1,29 @@
+/* header css */
+:root {
+  --blue: #0d4f9a;
+}
+
+.header {
+  background-color: rgb(241, 145, 61);
+  height: 68px;
+}
+.subHeader {
+  background-color: var(--blue);
+  height: 5%;
+}
+.icon-cart {
+  margin-bottom: 10px;
+  height: 30px;
+  width: 30px;
+  fill: #acc5ea;
+}
+.logo {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: auto;
+}
+.nitem {
+  margin-left: 10px;
+  margin-left: 10px;
+  color: var(--blue);
+}
