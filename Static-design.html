@@ -6,86 +6,124 @@
   <link rel="stylesheet" href="style.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <!-- body started -->
 
 <body>
-  <div class="container-fluid ">
+  <div class="container-fluid p-0 m-0" style="position: relative;">
     <!-- Upper part including header,subheader,navbar -->
-    <div class="container-fluid">
+    <div class="container-fluid p-0">
       <!-- header -->
       <div class="container-fluid text-center text-light pt-2 header">
-        <pre> 33% Off SITEWIDE | <small>Use code: </small>Reset33 
-            1d 01h 30m 28s</pre>
+        <span> 33% Off SITEWIDE | Use code: RESET33 </span><br>
+        <span style="font-size: 20px;line-height: 32px;">
+          1d 01h 30m 28s</span>
       </div>
 
       <!-- subHeader -->
       <div class="container-fluid text-light subHeader d-flex">
-        <div class="container">
+        <div class="container subHeader-text">
           <img src="two-users" style="
-                height: 30px;
-                width: 30px;
+                height: 33.5px;
+                width: 35px;
                 margin-bottom: 10px;
                 margin-top: 5px;
               " alt="" />
           EVERY ORDER CAN HELP END CHILDHOOD HUNGER
         </div>
-        <div class="btn-group float-end text-light">
-          <button type="button" class="btn text-light dropdown-toggle" data-bs-toggle="dropdown">
-            <small>Customer Support &nbsp;</small>CUSTOMER SUPPORT
+        <div class="container d-flex">
+          <img src="https://bio-img.biotrust.com/Shopify/header/chat-bubbles.png" alt="Customer Support"
+            class="icon-chat">
+          <button type="button" class="btn text-light dropdown-toggle" style="letter-spacing: 1.5px; font-size: 13.5px;"
+            data-bs-toggle="dropdown">
+            CUSTOMER SUPPORT
           </button>
+         
           <img src="download" style="
-                height: 30px;
+                height: 22.5px;
                 width: 30px;
                 margin-bottom: 10px;
-                margin-top: 5px;
+                margin-top: 15px;
               " alt="" />
 
-          <button type="button" class="btn text-light dropdown-toggle" data-bs-toggle="dropdown">
+          <button type="button" class="btn text-light dropdown-toggle" style="letter-spacing: 1.5px; font-size: 13.5px;"
+            data-bs-toggle="dropdown">
             MY ACCOUNT
           </button>
-          <img class="icon-cart" src="https://bio-img.s3.amazonaws.com/Shopify/global/vip/cart.png" alt="" srcset="" />
-          <button type="button " class="btn text-light">MY CART (0)</button>
+          <img class="icon-cart" style="
+          height: 22.5px;
+          width: 25px;
+          margin-bottom: 10px;
+          margin-top: 15px;
+          margin-right: 0;
+        " src="https://bio-img.s3.amazonaws.com/Shopify/global/vip/cart.png" alt="" srcset="" />
+          <button type="button " class="btn text-light" style="letter-spacing: 1.5px; font-size: 13.5px;">MY CART
+            (0)</button>
         </div>
       </div>
       <!-- Navbar -->
-      <div class="container d-flex flex-row border-bottom border-4 " style="border-color: var(--blue);">
-        <!-- logo of the comapnay -->
+      <div class="container-fluid d-flex flex-row  " style="border-bottom: 5px solid var(--blue);">
 
-        <img style="width: 18%; height: 5%"
-          src="https://www.biotrust.com/cdn/shop/files/naturally-honest_911b83fb-85cd-42d6-8bc9-aab9bb97abb8_360x.png?v=1674668138"
-          alt="" />
+
+
         <!-- navbar links -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <img style="width: 50%; margin-left: 5%;"
+              src="https://www.biotrust.com/cdn/shop/files/naturally-honest_911b83fb-85cd-42d6-8bc9-aab9bb97abb8_360x.png?v=1674668138"
+              alt="" />
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <ul class="navbar-nav list-navbar">
-          <li class="nav-item ">
-            <div class="btn-group">
-              <button type="button" class="btn btn-lg dropdown-toggle text-light" style="background-color: var(--blue)"
-                data-bs-toggle="dropdown">
-                Shop
-              </button>
-              <div class="dropdown-menu">
-                <a class="dropdown-item bg-light text-primary" href="#">ALL PRODUCTS</a>
-                <a class="dropdown-item bg-light text-primary" href="#">PROTEINS</a>
-              </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center " style="margin-left: 80px;">
+                <li class="nav-item dropdown pt-2 p-lg-2">
+                  <a class="btn dropdown-toggle btn-lg"
+                    style="background-color: var(--blue);color: white; border-radius: 6px;" href="#" id="navbarDropdown"
+                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    SHOP
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#"></a>ALL PRODUCTS</li>
+                    <li><a class="dropdown-item" href="#">PROTEINS</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">COLLEGEN PROTEIN</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item  pt-2 m-1">
+                  <a class="nav-link active" aria-current="page" href="#">QUALITY</a>
+                </li>
+                <li class="nav-item  pt-2 m-1">
+                  <a class="nav-link" href="#">MISSION</a>
+                </li>
+                <li class="nav-item  pt-2 m-1">
+                  <a class="nav-link" href="#">#BIOTRUST</a>
+                </li>
+              </ul>
+
             </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="#">QUALITY</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="#">MISSION</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="#">#BIOTRUST</a>
-          </li>
-        </ul>
 
+          </div>
+
+        </nav>
         <!-- search bar -->
+        <input class="form-control " style="margin-left: 45%; height: fit-content; margin-top: 20px;" type="search"
+          placeholder="search all products..." aria-label="Search">
+        <img src="download copy"
+          style="margin-left: -40px; height: 30px;width: 28px; margin-top: 23px; margin-right: 5px;" alt="">
 
-        <input class="form-control me-2 " style="margin-left: 50%; height: 25%;margin-top:5px;" type="search"
-          placeholder="Search" aria-label="Search">
+
+
       </div>
 
     </div>
@@ -93,16 +131,20 @@
 
   </div>
   <!-- lower part including carousal,imageview,discounts -->
-  <div class="container-fluid">
+  <div class="container-fluid pt-lg-5">
     <div class="row">
       <!-- review -->
       <div class="col-1">
+        <a href="#"
+          style="text-decoration: none;font-size: medium; font-weight: 500; font-family: var(--font-family);">Home</a>
 
-        <button type="button" class=" text-light rotate ">*Reviews</button>
-        <a href="http://">Home</a>
+        <button type="button " class=" btn btn-lg text-light rotate "
+          style="background-color: var(--blue); border-radius:unset; font-family: var(--font-family); margin-left: -54px;"><span
+            class="fa fa-star checked">Reviews</span></button>
+
       </div>
       <!-- courseal -->
-      <div class="col-1">
+      <div class="col-1 mt-2">
 
         <div id="carouselExampleControls" class="carousel slide" style="transform:rotate(90deg);"
           data-bs-ride="carousel">
@@ -134,50 +176,77 @@
       </div>
       <!-- image view -->
       <div class="col-4  text-center mt-4">
-        <pre style="color: var(--blue); font-size: x-large; margin-bottom: 0;"> <b>AGELESS MULTI-COLLAGEN PROTEIN
+        <pre
+          style="color: var(--blue); font-size: x-large; margin-bottom: 0; font-family: var(--font-family); font-weight: bolder;"> <b>AGELESS MULTI-COLLAGEN PROTEIN
 POWDER</b>
         </pre>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"><small>2909 </small>Reviews</span>
+        <span class="fa fa-star checked" style="color: var(--green);"></span>
+        <span class="fa fa-star checked" style="color: var(--green);"></span>
+        <span class="fa fa-star checked" style="color: var(--green);"></span>
+        <span class="fa fa-star checked" style="color: var(--green);"></span>
+        <span class="fa fa-star checked" style="color: var(--green);"><small
+            style="color: var(--blue); position: sticky;"> 2909 Reviews</small></span>
         <img style="height: 80%; width: 100%;"
           src="//www.biotrust.com/cdn/shop/products/Unflavored-4-Delicious-Flavors_40x40@2x.png?v=1657121683" alt="">
       </div>
-      <!-- discounts -->
+      <!-- Discounts -->
       <div class="col-6 d-flex  ">
-        <p class=" text-center">$49</p>
-        <div class="container d-flex">
-          <div class="container discount-card" style="border-right: none;">
-            <p> 1PACK</p>
-            <p style="color: black;">$49 <br>
-              Per Pack
-            </p>
-            <p style="color: red;">(Save 29%)</p>
-            <button class="discount-btn"> CHOOSE FALVOR</button>
+        <div class="row m-0">
+          <div class="col">
+            <p class="text-center" style="margin-bottom: 0%;">Choose Your Package</p>
+            <span class="text-center" style="margin-left: 30%; margin-top: 0%;">Select your money saving option
+              below:</span>
+            <div class="container d-flex">
+              <button class="btn text-light text-center pt-2 pb-2  m-2"
+                style="background-color: var(--blue); width:50%; padding-left: 4px;">One-Time <br>Purchase</button>
+              <button class="btn pt-2 pb-2  m-2 text-center "
+                style="background-color: white; width:50% ;color: var(--blue); border-color: var(--blue);">Subscribe &
+                Save <br>40% <span
+                  class="position-absolute top-42 start-99 translate-middle p-1  border text-light rounded-circle"
+                  style="background-color: var(--green); margin-left: 135px; margin-top:-30px;">?
+
+                </span></button>
+            </div>
 
           </div>
-          <div class="container discount-card2 ">
-            <pre style="background-color: var(--blue); color:white; text-align: center;">MOST POPULAR</pre>
-            <p>3PACKS</p>
-            <p style="color: #2bb34d;">$31<br>
-              Per Pack
-            </p>
-            <p style="color: red;">(Save 36%)</p><button class="discount-btn"> CHOOSE FALVORS</button>
+          <div class="container d-flex m-0">
+            <div class="container discount-card" style="border-right: none;">
+              <p> 1PACK</p>
+              <p style="color: black;">$49 <br>
+                Per Pack
+              </p>
+              <p style="color: red;">(Save 29%)</p>
+              <button class="discount-btn"> CHOOSE FALVOR</button>
+
+            </div>
+            <div class="container discount-card2 ">
+              <pre
+                style="background-color: var(--blue); color:white; text-align: center; width: 100%; margin: 0%;">MOST POPULAR</pre>
+              <p>3PACKS</p>
+              <p style="color: #2bb34d;">$31<br>
+                Per Pack
+              </p>
+              <p style="color: red;">(Save 36%)</p><button class="discount-btn"> CHOOSE FALVORS</button>
+            </div>
+            <div class="conatiner discount-card" style="border-left: none;">
+              <p>6PACKS</p>
+              <p style="color: #2bb34d;">$35 <br>
+                Per Pack
+              </p>
+              <p style="color: red;">(Save 29%)</p><button class="discount-btn"> CHOOSE FALVORS</button>
+            </div>
           </div>
-          <div class="conatiner discount-card" style="border-left: none;">
-            <p>6PACKS</p>
-            <p style="color: #2bb34d;">$35 <br>
-              Per Pack
-            </p>
-            <p style="color: red;">(Save 29%)</p><button class="discount-btn"> CHOOSE FALVORS</button>
-          </div>
+          <button class="btn border-4  top-99 start-90 float-end  text-light" style="background-color: var(--blue); position: fixed; width: fit-content; margin-left: 40%;
+          margin-top: 30%;"> Let's Chat!</button>
         </div>
+
       </div>
     </div>
+    
   </div>
+
   </div>
+
 </body>
 
 </html>
